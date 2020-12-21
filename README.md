@@ -4,7 +4,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4057134.svg)](https://doi.org/10.5281/zenodo.4057134)
 
-
+<img src="figures/Figure5b.png" width=70% align="middle">
+<img src="figures/Figure6.png" width=70% align="middle">
 
 ## Summary
 
