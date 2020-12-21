@@ -2,6 +2,8 @@
 
 # 2020-GP-recovering-sparse-models
 
+[![DOI](https://zenodo.org/badge/322766761.svg)](https://zenodo.org/badge/latestdoi/322766761)
+
 Gravity gradient data inversion using mixed Lp norm regularization.
 
 ## Usage
