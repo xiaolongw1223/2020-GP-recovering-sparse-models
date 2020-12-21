@@ -83,20 +83,27 @@ After unzipping the two zipped files,
 		"alpha_y": 0,
 		"alpha_z": 0
 
-### References
+## Citation
 
-Cockett, R., Kang, S., Heagy, L.J., Pidlisecky, A. and Oldenburg, D.W., 2015. SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications. Computers & Geosciences, 85, pp.142-154.
+If you use script in your work, please cite:
 
-Farquharson, C.G., 2008. Constructing piecewise-constant models in multidimensional minimum-structure inversions. Geophysics, 73(1), pp.K1-K9.
+This article has been accepted for publication and undergone full peer review but has not been through the copyediting, typesetting, pagination and proofreading process, which may lead to differences between this version and the Version of Record. Please cite this article as https://doi.org/10.1111/1365-2478.13063
 
-Fournier, D. and Oldenburg, D.W., 2019. Inversion using spatially variable mixed ℓ p norms. Geophysical Journal International, 218(1), pp.268-282.
+Cockett, Rowan, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky, and Douglas W. Oldenburg. "SimPEG: An Open Source Framework for Simulation and Gradient Based Parameter Estimation in Geophysical Applications" Computers & Geosciences, September 2015. https://doi.org/10.1016/j.cageo.2015.09.015.
 
-Li, Y. and Oldenburg, D.W., 1996. 3-D inversion of magnetic data. Geophysics, 61(2), pp.394-408.
+```
+@article{Cockett2015,
+author = {Cockett, Rowan and Kang, Seogi and Heagy, Lindsey J. and Pidlisecky, Adam and Oldenburg, Douglas W.},
+doi = {10.1016/j.cageo.2015.09.015},
+issn = {00983004},
+journal = {Computers and Geosciences},
+keywords = {Electromagnetics,Geophysics,Inversion,Numerical modeling,Object-oriented programming,Sensitivities},
+pages = {142--154},
+publisher = {Elsevier},
+title = {{SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications}},
+url = {http://dx.doi.org/10.1016/j.cageo.2015.09.015},
+volume = {85},
+year = {2015}
+}
+```
 
-Li, Y. and Oldenburg, D.W., 1998. 3-D inversion of gravity data. Geophysics, 63(1), pp.109-119.
-
-Portniaguine, O. and Zhdanov, M.S., 1999. Focusing geophysical inversion images. Geophysics, 64(3), pp.874-887.
-
-Rudin, L.I., Osher, S. and Fatemi, E., 1992. Nonlinear total variation based noise removal algorithms. Physica D: nonlinear phenomena, 60(1-4), pp.259-268.
-
-Sun, J. and Li, Y., 2014. Adaptive L p inversion for simultaneous recovery of both blocky and smooth features in a geophysical model. Geophysical Journal International, 197(2), pp.882-899.
