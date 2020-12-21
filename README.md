@@ -107,3 +107,5 @@ year = {2015}
 }
 ```
 
+## License
+This script is licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
