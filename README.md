@@ -1,4 +1,4 @@
-**[usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
+**[contents](#contents) | [usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
 # 2020-GP-recovering-sparse-models
 
@@ -6,18 +6,7 @@
 
 Gravity gradient data inversion using mixed Lp norm regularization.
 
-## Usage
-### Requirements
-
-- Python 3.6 or later
-
-- SimPEG (https://simpeg.xyz/) can be installed following (https://docs.simpeg.xyz/content/basic/installing.html).
-
-- After successful installation of the official SimPEG, install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
-
-  - The modifed version of SimPEG can be installed by using pip:
-
-        pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
+## Contents
 
 ### Introduction of "Input.json" file
 
@@ -43,18 +32,6 @@ Gravity gradient data inversion using mixed Lp norm regularization.
 
 - alpha_z: a constant weighting parameter for smoothness component in z direction.
 
-### Examples
-
-- p=q=2: classic L2 norm inversion (Li and Oldenburg, 1996, 1998)
-
-- p=q=1 or 0: sparse inversion (Farquharson, 2008; Sun and Li, 2014)
-
-- p!=q: mixed Lp norm inversion (Fournier and Oldenburg, 2019)
-
-- alpha_s=0, q=0: focusing inversion (Portniaguine and Zhdanov, 1999)
-
-- alpha_s=0, q=1: total variation inversion (Rudin et al., 1992)
-
 ### Reproducibility
 
 - To reproduce our results, we have created two example folders: Example1_spheric and Example2_horseShoe, that contain the observed data, mesh and topography files. To reproduce the inversion results in Figure 2(a), the Input.json file looks like the following:
@@ -71,6 +48,31 @@ Gravity gradient data inversion using mixed Lp norm regularization.
 		"alpha_x": 0,
 		"alpha_y": 0,
 		"alpha_z": 0
+
+### Examples
+
+- p=q=2: classic L2 norm inversion (Li and Oldenburg, 1996, 1998)
+
+- p=q=1 or 0: sparse inversion (Farquharson, 2008; Sun and Li, 2014)
+
+- p!=q: mixed Lp norm inversion (Fournier and Oldenburg, 2019)
+
+- alpha_s=0, q=0: focusing inversion (Portniaguine and Zhdanov, 1999)
+
+- alpha_s=0, q=1: total variation inversion (Rudin et al., 1992)
+
+## Usage
+### Requirements
+
+- Python 3.6 or later
+
+- SimPEG (https://simpeg.xyz/) can be installed following (https://docs.simpeg.xyz/content/basic/installing.html).
+
+- After successful installation of the official SimPEG, install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
+
+  - The modifed version of SimPEG can be installed by using pip:
+
+        pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
 
 ## Running the code
 
