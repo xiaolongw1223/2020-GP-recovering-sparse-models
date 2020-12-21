@@ -88,7 +88,7 @@ After unzipping the two zipped files,
 
 Please [make an issue](https://github.com/xiaolongw1223/2020-GP-recovering-sparse-models/issues) if you encounter any problems while trying to run the notebooks.
 
-## Citation
+## Citations
 
 If you use script in your work, please cite:
 
