@@ -1,4 +1,4 @@
-**[usage](#usage) | [citations](#citations) | [license](#license)**
+**[usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
 # 2020-GP-recovering-sparse-models
 
@@ -18,19 +18,6 @@ Gravity gradient data inversion using mixed Lp norm regularization.
   - The modifed version of SimPEG can be installed by using pip:
 
         pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
-
-### Running codes
-
-After unzipping the two zipped files,
-
-- In an IPython console
-
-      run MixedLpInversion.py Input.json
-
-- In a command terminal
-
-      $ python MixedLpInversion.py Input.json
-
 
 ### Introduction of "Input.json" file
 
@@ -84,6 +71,22 @@ After unzipping the two zipped files,
 		"alpha_x": 0,
 		"alpha_y": 0,
 		"alpha_z": 0
+
+## Running the code
+
+After unzipping the two zipped files,
+
+- In an IPython console
+
+      run MixedLpInversion.py Input.json
+
+- In a command terminal
+
+      $ python MixedLpInversion.py Input.json
+
+## Issues
+
+Please [make an issue](https://github.com/xiaolongw1223/2020-GP-recovering-sparse-models/issues) if you encounter any problems while trying to run the notebooks.
 
 ## Citation
 
