@@ -1,5 +1,4 @@
 # 2020-GP-recovering-sparse-models
-Mixed Lp norm inversion
 ==========================
 Gravity gradient data inversion using mixed Lp norm regularization.
 
