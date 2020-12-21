@@ -1,14 +1,11 @@
-**[usage](#usage) | [citations](#citations) | [license]
+**[usage](#usage) | [citations](#citations) | [license](#license)**
 
 # 2020-GP-recovering-sparse-models
-==========================
+
 Gravity gradient data inversion using mixed Lp norm regularization.
 
-**Authors:**
-- Xiaolong Wei (xwei7@uh.edu)
-- Jiajia Sun (jsun20@uh.edu)
-
-## Requirements
+## Usage
+### Requirements
 
 - Python 3.6 or later
 
@@ -20,7 +17,7 @@ Gravity gradient data inversion using mixed Lp norm regularization.
 
         pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
 
-## Running codes
+### Running codes
 
 After unzipping the two zipped files,
 
@@ -33,7 +30,7 @@ After unzipping the two zipped files,
       $ python MixedLpInversion.py Input.json
 
 
-## Introduction of "Input.json" file
+### Introduction of "Input.json" file
 
 - data_file: observed gravity gradient data.
 
@@ -57,7 +54,7 @@ After unzipping the two zipped files,
 
 - alpha_z: a constant weighting parameter for smoothness component in z direction.
 
-## Examples
+### Examples
 
 - p=q=2: classic L2 norm inversion (Li and Oldenburg, 1996, 1998)
 
@@ -69,7 +66,7 @@ After unzipping the two zipped files,
 
 - alpha_s=0, q=1: total variation inversion (Rudin et al., 1992)
 
-## Reproducibility
+### Reproducibility
 
 - To reproduce our results, we have created two example folders: Example1_spheric and Example2_horseShoe, that contain the observed data, mesh and topography files. To reproduce the inversion results in Figure 2(a), the Input.json file looks like the following:
 
@@ -86,7 +83,7 @@ After unzipping the two zipped files,
 		"alpha_y": 0,
 		"alpha_z": 0
 
-## References
+### References
 
 Cockett, R., Kang, S., Heagy, L.J., Pidlisecky, A. and Oldenburg, D.W., 2015. SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications. Computers & Geosciences, 85, pp.142-154.
 
