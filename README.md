@@ -1,10 +1,14 @@
-**[contents](#contents) | [usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
+**[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
 # 2020-GP-recovering-sparse-models
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4057134.svg)](https://doi.org/10.5281/zenodo.4057134)
 
-Gravity gradient data inversion using mixed Lp norm regularization.
+
+
+## Summary
+
+Sparse inversions have proven to be useful for interpreting potential‐field data because the recovered models are characterized by sharp boundaries, compact features and elevated values, compared with conventional smoothness‐based inversion results. However, several open problems remain to be addressed, including the boundary dependence and staircasing problems. The former results in recovered anomalous values being close to the upper bound, while the latter leads to recovered anomalous bodies with either horizontal or vertical boundaries. We have developed a mixed Lp norm regularization strategy to address these two problems. Inversion results based on two synthetic examples confirm the validity of our approach.
 
 ## Contents
 
