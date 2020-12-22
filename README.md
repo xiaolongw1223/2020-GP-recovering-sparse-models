@@ -69,26 +69,25 @@ Sparse inversions have proven to be useful for interpreting potential‐field da
 
 To run the script locally, you need to have python installed, [anaconda](https://www.anaconda.com/download/) is recommended.
 
-Install dependencies:
-'''
+- Install dependencies:
+```
 pip install -r requirements.txt
-'''
+```
 
-Or, set up working environment using conda:
-'''
+- Or, set up working environment using conda:
+```
 conda env create -f environment.yml
 conda activate sparse-environment
-'''
+```
 
-- After successful installation of the official SimPEG, install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
-
-  - The modifed version of SimPEG can be installed by using pip:
-
-        pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
+- Install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
+```
+pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
+```
 
 ## Running the code
 
-After unzipping the two zipped files,
+Download the code and unzip the file,
 
 - In an IPython console
 
