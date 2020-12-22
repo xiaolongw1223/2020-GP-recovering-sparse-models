@@ -80,7 +80,7 @@ conda env create -f environment.yml
 conda activate sparse-environment
 ```
 
-- Install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
+- Install a modified version of SimPEG. Xiaolong made a few changes, yet haven't pull request so far.
 ```
 pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
 ```
