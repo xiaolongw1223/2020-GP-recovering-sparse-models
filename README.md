@@ -39,7 +39,7 @@ Introduction of "Input.json" file
 Examples
 
 - To reproduce our results, we have created two example folders: Example1_spheric and Example2_horseShoe, that contain the observed data, mesh and topography files. To reproduce the inversion results in Figure 2(a), the Input.json file looks like the following:
-
+```
 		"data_file": "gzz.obs",
 		"mesh_file": "mesh.txt",
 		"example": "spheric",
@@ -52,6 +52,7 @@ Examples
 		"alpha_x": 0,
 		"alpha_y": 0,
 		"alpha_z": 0
+```
 
 - p=q=2: classic L2 norm inversion (Li and Oldenburg, 1996, 1998)
 
