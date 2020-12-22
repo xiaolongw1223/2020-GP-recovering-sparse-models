@@ -85,7 +85,7 @@ conda activate sparse-environment
 pip install git+https://github.com/xiaolongw1223/simpeg.git@Joinv_0.13.0_gzz --upgrade --user
 ```
 
-- Download the code and unzip the file,
+Download the code and unzip the file,
 
 - In an IPython console
 
