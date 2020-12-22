@@ -66,11 +66,19 @@ Sparse inversions have proven to be useful for interpreting potential‐field da
 - alpha_s=0, q=1: total variation inversion (Rudin et al., 1992)
 
 ## Usage
-### Requirements
 
-- Python 3.6 or later
+To run the script locally, you need to have python installed, [anaconda](https://www.anaconda.com/download/) is recommended.
 
-- SimPEG (https://simpeg.xyz/) can be installed following (https://docs.simpeg.xyz/content/basic/installing.html).
+Install dependencies:
+'''
+pip install -r requirements.txt
+'''
+
+Or, set up working environment using conda:
+'''
+conda env create -f environment.yml
+conda activate sparse-environment
+'''
 
 - After successful installation of the official SimPEG, install a modified version from Xiaolong's github (https://github.com/xiaolongw1223). Xiaolong made a few changes, yet haven't pull request so far.
 
