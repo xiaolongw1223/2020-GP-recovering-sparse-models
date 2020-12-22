@@ -12,7 +12,7 @@ Sparse inversions have proven to be useful for interpreting potential‐field da
 
 ## Contents
 
-### Introduction of "Input.json" file
+Introduction of "Input.json" file
 
 - data_file: observed gravity gradient data.
 
@@ -36,7 +36,7 @@ Sparse inversions have proven to be useful for interpreting potential‐field da
 
 - alpha_z: a constant weighting parameter for smoothness component in z direction.
 
-### Reproducibility
+Reproducibility
 
 - To reproduce our results, we have created two example folders: Example1_spheric and Example2_horseShoe, that contain the observed data, mesh and topography files. To reproduce the inversion results in Figure 2(a), the Input.json file looks like the following:
 
@@ -53,7 +53,7 @@ Sparse inversions have proven to be useful for interpreting potential‐field da
 		"alpha_y": 0,
 		"alpha_z": 0
 
-### Examples
+Examples
 
 - p=q=2: classic L2 norm inversion (Li and Oldenburg, 1996, 1998)
 
