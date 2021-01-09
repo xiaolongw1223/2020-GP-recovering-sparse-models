@@ -1,6 +1,6 @@
 **[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the code](#running-the-code) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
-# 2020-GP-sparse-model-recovering
+# 2020 Geophysical Prospecting: sparse model recovering
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4057134.svg)](https://doi.org/10.5281/zenodo.4057134)
 
